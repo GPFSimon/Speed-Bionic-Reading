@@ -45,7 +45,7 @@ If you're having difficulties, please refer to the [Microsoft Support page](http
 
 # Recommended Fonts
 
-If you really want your document to look like Bionic-Reading, I reccomend downloading and installing the IBM Plex Serif font found [here](https://fonts.google.com/specimen/IBM+Plex+Serif). 
+If you really want your document to look like Bionic-Reading, I recommend downloading and installing the IBM Plex Serif font found [here](https://fonts.google.com/specimen/IBM+Plex+Serif). 
 I also recommend making the font a slightly lighter shade of black, perhaps 25% lighter.
 
 # Output Example
