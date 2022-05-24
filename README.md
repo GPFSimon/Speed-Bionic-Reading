@@ -1,6 +1,7 @@
 # Table of Contents
 - [Speed-Bionic-Reading](#speed-bionic-reading)
   * [Shout out to Bionic-Reading.com](#shout-out-to-bionic-readingcom)
+- [The Macro Logic](#the-macro-logic) 
 - [Importing the Macro](#importing-the-macro)
   * [Getting the Macro to work](#getting-the-macro-to-work)
   * [Enable Macros](#enable-macros)
@@ -22,6 +23,18 @@ Speed reading technique is to highlight important words or parts of words in a t
 
 They explain this technique as: 
 >Facilitating the reading process by guiding the eyes through text with artificial fixation points. As a result, the reading is only focusing on the highlighted initial letters and lets the brain center complete the word.
+
+# The Macro Logic
+
+| Macro Name                    | Txt Name                     | Logic                                                                                                                 |
+|-------------------------------|------------------------------|-----------------------------------------------------------------------------------------------------------------------|
+| [SpeedReaderSelection](ImportVBA)          | [ConvertHighlighted.txt](VBAText/ConvertHighlighted.txt)       | Affects only highlighted text<br>Words 1-3 characters = 1 letter bolded<br>Words 5+ chars = Half bolded, rounded up   |
+| [SpeedReaderFullDoc](ImportVBA)             | [ConvertEntireDoc.txt](VBAText/ConvertEntireDoc.txt)          | Affects entire document<br>Words 1-3 characters = 1 letter bolded<br>Words 5+ chars = Half bolded, rounded up         |
+| [SpeedReaderSelectionRoundDown](ImportVBA)  | [ConvertHighlightBoldLess.txt](VBAText/ConvertHighlightBoldLess.txt)  | Affects only highlighted text<br>Words 2-3 characters = 1 letter bolded<br>Words 5+ chars = Half bolded, rounded down |
+| [SpeedReaderFullDocRoundDown](ImportVBA)    | [ConvertEntireBoldLess.txt](VBAText/ConvertEntireBoldLess.txt)     | Affects entire document<br>Words 2-3 characters = 1 letter bolded<br>Words 5+ chars = Half bolded, rounded down       |
+
+
+
 
 # Importing the Macro
 
